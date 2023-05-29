@@ -1,0 +1,17 @@
+{
+  "name": "playwright-pdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:gui": "npx playwright test --project=gui --headed",
+    "test:api": "npx playwright test --project=api",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.34.3"
+  }
+}
