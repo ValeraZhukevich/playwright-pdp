@@ -6,12 +6,14 @@
   "scripts": {
     "test:gui": "npx playwright test --project=gui --headed",
     "test:api": "npx playwright test --project=api",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "allure": "allure generate allure-results -o allure-report --clean && allure open allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.34.3"
+    "@playwright/test": "^1.34.3",
+    "allure-playwright": "^2.4.0"
   }
 }
